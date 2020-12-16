@@ -1,5 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+//Buttons//
+.btn, .btn_ghost {
+    width: 183px;
+    height: 62px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.btn {
+    background: linear-gradient(90deg, #5390D9 0%, #5E60CE 110.66%);
+    color: #FFFFFF;
+    border: 0;
+    transition: 0.9s all;
+    &:hover {
+        background: linear-gradient(90deg, #5390D9 100%, #5E60CE 0%);
+        border: none;
+        color: #fff;
+    }
+    &_ghost {
+        background-color: transparent;
+        border: 2px solid rgba(28, 35, 99, 0.7);
+        color: rgba(28, 35, 99, 0.7);
+        padding: 6px 12px;
+        &:hover {
+            background: linear-gradient(90deg, #5390D9 0%, #5390D9 100%);
+            border: none;
+            color: white;
+        }
+
+    }
+}
+
+//Navbar//
+.mynavbar {
+    padding: 0;
+    padding-top: 15px;
+    &__logo {
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 46px;
+        color: #1C2363;
+        &:hover {
+            color: #1C2363;
+        }
+    }
+    &__item {
+        margin-right: 46px;
+        a {
+            font-size: 17px;
+            line-height: 175.7%;
+            color: #1C2363;
+            transition: 0.7s all;
+            &:hover {
+                color:rgba(28, 35, 99, 0.4);
+            }
+        }
+    }
+    &__btn {
+        width: 176px;
+        height: 43.65px;
+        border: 2px solid rgba(28, 35, 99, 0.8);
+        border-radius: 10px;
+        font-size: 17px;
+        line-height: 24px;
+        color: rgba(28, 35, 99, 0.8);
+        background-color: transparent;
+        transition: 0.7s all;
+        &:hover {
+            background: linear-gradient(90deg, #5390D9 0%, #5E60CE 110.66%);
+            border: none;
+            color: white;
+        }
+    }
+}
+//To put links in the navbar to the right side
+.flex-end {
+    justify-content: flex-end;
+}
+
+// Promo
+.promo {
+    color: #1C2363;
+    background-color: #EFEFFF;
+    height: 850px;
+    overflow: hidden;
+    position: relative;
+    .polygon {
+        position: absolute;
+        bottom: -215px;
+        z-index: 1;
+    }
+    &__wrapper {
+        margin-top: 171px;
+        display: flex;
+    }
+    &__left {
+        width: 694px;
+        // position: relative;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 105.5%;
+    }
+    &__descr {
+        font-size: 24px;
+        line-height: 33px;
+        margin: 16px 0 32px 0;
+    }
+    .buttons__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &_btn {
+        margin-right: 32px;
+    }
+    &__img {
+        position: absolute;
+        right: 70px;
+        bottom: 114px;
+        z-index: 2;
+    }
 }
