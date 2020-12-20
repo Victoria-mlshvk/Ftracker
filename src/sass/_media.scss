@@ -1,0 +1,395 @@
+@media (max-width: 1200px) {
+    .btn, .btn_ghost {
+        width: 152px;
+        height: 55px;
+        font-size: 16px;
+        &_promo {
+            margin-right: 22px;
+        }
+        &_features {
+            border-radius: 4px;
+            width: 159px;
+            height: 44px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .title {
+        font-size: 40px;
+        line-height: 42px;
+        &_features {
+            font-size: 34px;
+            line-height: 34px;
+        }
+    }
+    .paragraph {
+        font-size: 15px;
+        line-height: 23px;
+        &_overview {
+            margin-top: 15px;
+        }
+    }
+    .mynavbar {
+        &__logo {
+            font-size: 32px;
+        }
+        &__item {
+            margin-right: 30px;
+        }
+    }
+    .promo {
+        height: 600px;
+        &__wrapper {
+            margin-top: 140px;
+        }
+        &__title {
+            font-size: 60px;
+        }
+        &__descr {
+            font-size: 18px;
+            margin: 10px 0 25px 0;
+        }
+        &__img {
+            width: 520px;
+            right: 10px;
+            bottom: 34px;
+        }
+    }
+    .overview {
+        padding-bottom: 80px;
+        &__wrapper {
+            margin-top: 62px;
+        }
+        &__subtitle {
+            font-size: 24px;
+            line-height: 28px;
+            width: 165px;
+            margin-top: 35px;
+        }
+    }
+    .features {
+        padding: 80px 0;
+        &__text {
+            max-width: 385px;
+        }
+        &__img {
+            max-width: 490px;
+        }
+    }
+    .cta {
+        padding: 60px;
+        &__box {
+            padding: 50px 0;
+            height: 345px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .navbar-toggler,
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+    .mynavbar {
+        &__logo {
+            font-size: 20px;
+        }
+        &__item {
+            margin-right: 20px;
+            a {
+                font-size: 14px;
+            }
+        }
+        &__btn {
+            width: 146px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+    .btn, .btn_ghost {
+        width: 132px;
+        height: 47px;
+        font-size: 14px;
+        &_promo {
+            margin-right: 20px;
+        }
+        &_features {
+            border-radius: 4px;
+            width: 135px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+        &_cta {
+            margin-right: 14px;
+        }
+    }
+    .buttons__wrapper {
+        &_cta {
+            margin-top: 18px;
+        }
+    }
+    .title {
+        font-size: 35px;
+        line-height: 40px;
+        &_features {
+            font-size: 30px;
+            line-height: 34px;
+        }
+    }
+    .paragraph {
+        font-size: 14px;
+        margin-top: 12px;
+        line-height: 21px;
+        &_overview {
+            width: 480px;
+        }
+    }
+    .promo {
+        height: 550px;
+        &__wrapper {
+            margin-top: 110px;
+        }
+        &__title {
+            font-size: 47px;
+        }
+        &__descr {
+            font-size: 16px;
+            margin: 0px 0 15px 0;
+        }
+        &__img {
+            width: 410px;
+            bottom: 48px;
+        }
+    }
+    .overview {
+        padding-bottom: 60px;
+        &__img {
+            height: 130px;
+        }
+        &__subtitle {
+            width: 135px;
+            font-size: 20px;
+            line-height: 24px;
+            margin-top: 30px;
+        }
+    }
+    .features {
+        padding: 60px 0;
+        &__text {
+            max-width: 325px;
+        }
+        &__img {
+            max-width: 340px;
+        }
+    }
+    .cta {
+        padding: 40px 0;
+        &__box {
+            height: 300px;
+            padding: 40px 80px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        &_promo {
+            margin-right: 15px;
+        }
+        &_features {
+            border-radius: 4px;
+            width: 135px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    .title {
+        &_cta {
+            font-size: 28px;
+            line-height: 35px;
+        }
+    }
+    .paragraph {
+        &_overview {
+            width: 450px;
+        }
+    }
+    .mynavbar {
+        &__hamburger {
+            height: 21px;
+            top: 20px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            span {
+                display: block;
+                background-color: #1C2363;;
+                width: 30px;
+                height: 3px;
+            }
+        }
+        &__logo {
+            font-size: 20px;
+        }
+        &__item {
+            margin-right: 0;
+        }
+    }
+    .promo {
+        padding-bottom: 30px;
+        height: auto;
+        text-align: center;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__left {
+            width: auto;
+        }
+        .buttons__wrapper {
+            justify-content: center;
+        }
+        &__img {
+            position: static;
+            margin-top: 30px;
+        }
+        .polygon {
+            display: none;
+        }
+    }
+    .overview {
+        padding-top: 40px;
+        &__wrapper {
+            margin-top: 0;
+        }
+        &__item {
+            margin-top: 60px;
+        }
+    }
+    .features {
+        &__item {
+            flex-direction: column;
+            text-align: center;
+            margin-top: 60px;
+            &:nth-child(2) {
+                flex-direction: column-reverse;
+            }
+        }
+        &__img {
+            margin-top: 30px;
+        }
+    }
+    .cta {
+        padding: 30px 0;
+        &__box {
+            height: 260px;
+            padding: 30px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .btn, .btn_ghost {
+        &_promo {
+            margin-right: 15px;
+        }
+        &_features {
+            width: 125px;
+            height: 35px;
+            font-size: 12px;
+        }
+        &_cta {
+            margin-right: 10px;
+            width: 112px;
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+    .title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .paragraph {
+        width: 280px;
+        font-size: 13px;
+        line-height: 20px;
+        &_features {
+            margin: 12px auto 16px;
+        }
+        &_cta {
+            width: auto;
+        }
+    }
+    .promo {
+        &__left {
+            min-width: 320px;
+        }
+        &__title {
+            font-size: 44px;
+        }
+        &__descr {
+            max-width: 350px;
+            font-size: 17px;
+            text-align: center;
+            line-height: 22px;
+            margin: 15px auto;
+        }
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__img {
+            width: 300px;
+        }
+    }
+    .overview {
+        &__item {
+            margin-top: 45px;
+        }
+    }
+    .features {
+        padding: 40px 0;
+        &__item {
+            margin-top: 40px;
+        }
+        &__text {
+            min-width: 300px;
+        }
+        &__img {
+            min-width: 300px;
+        }
+    }
+    .features {
+        &__img {
+            width: 80%;
+        }
+    }
+    .cta {
+        padding: 30px 0;
+        &__box {
+            min-width: 300px;
+            height: auto;
+            padding: 15px 35px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__right {
+            text-align: center;
+            margin: 18px 0;
+        }
+    }
+}
