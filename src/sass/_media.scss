@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
-    .btn, .btn_ghost {
+    .landing_btn, .landing_btn_ghost {
         width: 152px;
-        height: 55px;
+        height: 50px;
         font-size: 16px;
         &_promo {
             margin-right: 22px;
@@ -15,7 +15,7 @@
             color: #FFFFFF;
         }
     }
-    .title {
+    .landing_title {
         font-size: 40px;
         line-height: 42px;
         &_features {
@@ -23,14 +23,14 @@
             line-height: 34px;
         }
     }
-    .paragraph {
+    .landing_paragraph {
         font-size: 15px;
         line-height: 23px;
         &_overview {
             margin-top: 15px;
         }
     }
-    .mynavbar {
+    .landing_mynavbar {
         &__logo {
             font-size: 32px;
         }
@@ -38,7 +38,7 @@
             margin-right: 30px;
         }
     }
-    .promo {
+    .landing_promo {
         height: 600px;
         &__wrapper {
             margin-top: 140px;
@@ -56,7 +56,7 @@
             bottom: 34px;
         }
     }
-    .overview {
+    .landing_overview {
         padding-bottom: 80px;
         &__wrapper {
             margin-top: 62px;
@@ -68,7 +68,7 @@
             margin-top: 35px;
         }
     }
-    .features {
+    .landing_features {
         padding: 80px 0;
         &__text {
             max-width: 385px;
@@ -77,7 +77,7 @@
             max-width: 490px;
         }
     }
-    .cta {
+    .landing_cta {
         padding: 60px;
         &__box {
             padding: 50px 0;
@@ -86,15 +86,15 @@
     }
 }
 @media (max-width: 991px) {
-    .navbar-toggler,
-    .navbar-toggler:focus,
-    .navbar-toggler:active,
-    .navbar-toggler-icon:focus {
+    .landing_navbar-toggler,
+    .landing_navbar-toggler:focus,
+    .landing_navbar-toggler:active,
+    .landing_navbar-toggler-icon:focus {
         outline: none;
         border: none;
         box-shadow: none;
     }
-    .mynavbar {
+    .landing_mynavbar {
         &__logo {
             font-size: 20px;
         }
@@ -110,7 +110,7 @@
             font-size: 14px;
         }
     }
-    .btn, .btn_ghost {
+    .landing_btn, .landing_btn_ghost {
         width: 132px;
         height: 47px;
         font-size: 14px;
@@ -129,12 +129,12 @@
             margin-right: 14px;
         }
     }
-    .buttons__wrapper {
+    .landing_buttons__wrapper {
         &_cta {
             margin-top: 18px;
         }
     }
-    .title {
+    .landing_title {
         font-size: 35px;
         line-height: 40px;
         &_features {
@@ -142,7 +142,7 @@
             line-height: 34px;
         }
     }
-    .paragraph {
+    .landing_paragraph {
         font-size: 14px;
         margin-top: 12px;
         line-height: 21px;
@@ -150,7 +150,7 @@
             width: 480px;
         }
     }
-    .promo {
+    .landing_promo {
         height: 550px;
         &__wrapper {
             margin-top: 110px;
@@ -167,7 +167,7 @@
             bottom: 48px;
         }
     }
-    .overview {
+    .landing_overview {
         padding-bottom: 60px;
         &__img {
             height: 130px;
@@ -179,7 +179,7 @@
             margin-top: 30px;
         }
     }
-    .features {
+    .landing_features {
         padding: 60px 0;
         &__text {
             max-width: 325px;
@@ -188,7 +188,7 @@
             max-width: 340px;
         }
     }
-    .cta {
+    .landing_cta {
         padding: 40px 0;
         &__box {
             height: 300px;
@@ -198,7 +198,7 @@
 }
 
 @media (max-width: 767px) {
-    .btn {
+    .landing_btn {
         &_promo {
             margin-right: 15px;
         }
@@ -211,18 +211,18 @@
             color: #FFFFFF;
         }
     }
-    .title {
+    .landing_title {
         &_cta {
             font-size: 28px;
             line-height: 35px;
         }
     }
-    .paragraph {
+    .landing_paragraph {
         &_overview {
             width: 450px;
         }
     }
-    .mynavbar {
+    .landing_mynavbar {
         &__hamburger {
             height: 25px;
             top: 20px;
@@ -244,7 +244,7 @@
             margin-right: 0;
         }
     }
-    .promo {
+    .landing_promo {
         padding-bottom: 30px;
         height: auto;
         text-align: center;
@@ -256,18 +256,18 @@
         &__left {
             width: auto;
         }
-        .buttons__wrapper {
+        .landing_buttons__wrapper {
             justify-content: center;
         }
         &__img {
             position: static;
             margin-top: 30px;
         }
-        .polygon {
+        .landing_polygon {
             display: none;
         }
     }
-    .overview {
+    .landing_overview {
         padding-top: 40px;
         &__wrapper {
             margin-top: 0;
@@ -276,7 +276,7 @@
             margin-top: 60px;
         }
     }
-    .features {
+    .landing_features {
         &__item {
             flex-direction: column;
             text-align: center;
@@ -289,7 +289,7 @@
             margin-top: 30px;
         }
     }
-    .cta {
+    .landing_cta {
         padding: 30px 0;
         &__box {
             height: 260px;
@@ -299,7 +299,7 @@
 }
 
 @media (max-width: 575px) {
-    .btn, .btn_ghost {
+    .landing_btn, .landing_btn_ghost {
         &_promo {
             margin-right: 15px;
         }
@@ -315,11 +315,11 @@
             font-size: 13px;
         }
     }
-    .title {
+    .landing_title {
         font-size: 22px;
         line-height: 28px;
     }
-    .paragraph {
+    .landing_paragraph {
         width: 280px;
         font-size: 13px;
         line-height: 20px;
@@ -330,7 +330,7 @@
             width: auto;
         }
     }
-    .promo {
+    .landing_promo {
         &__left {
             min-width: 320px;
         }
@@ -351,12 +351,12 @@
             width: 300px;
         }
     }
-    .overview {
+    .landing_overview {
         &__item {
             margin-top: 45px;
         }
     }
-    .features {
+    .landing_features {
         padding: 40px 0;
         &__item {
             margin-top: 40px;
@@ -368,12 +368,12 @@
             min-width: 300px;
         }
     }
-    .features {
+    .landing_features {
         &__img {
             width: 80%;
         }
     }
-    .cta {
+    .landing_cta {
         padding: 30px 0;
         &__box {
             min-width: 300px;
@@ -381,7 +381,7 @@
             padding: 15px 35px;
         }
     }
-    .footer {
+    .landing_footer {
         &__wrapper {
             text-align: center;
             flex-direction: column;
