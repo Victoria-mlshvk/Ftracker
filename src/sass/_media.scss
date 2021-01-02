@@ -32,10 +32,18 @@
     }
     .landing_mynavbar {
         &__logo {
-            font-size: 32px;
+            font-size: 23px;
         }
         &__item {
             margin-right: 30px;
+            a {
+                font-size: 16px;
+            }
+        }
+        &__btn {
+            width: 166px;
+            height: 40px;
+            font-size: 16px;
         }
     }
     .landing_promo {
@@ -44,16 +52,16 @@
             margin-top: 140px;
         }
         &__title {
-            font-size: 60px;
+            font-size: 52px;
         }
         &__descr {
             font-size: 18px;
-            margin: 10px 0 25px 0;
+            margin: 10px 0 20px 0;
         }
         &__img {
             width: 520px;
-            right: 10px;
-            bottom: 34px;
+            right: 25px;
+            bottom: 54px;
         }
     }
     .landing_overview {
@@ -111,8 +119,8 @@
         }
     }
     .landing_btn, .landing_btn_ghost {
-        width: 132px;
-        height: 47px;
+        width: 128px;
+        height: 43px;
         font-size: 14px;
         &_promo {
             margin-right: 20px;
@@ -263,7 +271,7 @@
             position: static;
             margin-top: 30px;
         }
-        .landing_polygon {
+        svg {
             display: none;
         }
     }
